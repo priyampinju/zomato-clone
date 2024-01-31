@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.header-right {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+.header-logo {
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.location-wrapper {
+    padding: 0 10px;
+    display: flex;
+    /* flex: 1; */
+    width: 35%;
+    justify-content: space-between;
+    border-right: 1px solid var(--zomato-gray)
+}
+.header-location-search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--primary-box-shadow);
+    height: 54px;
+    border-radius: 8px;
+    width: 70%;
+}
+.search {
+    width: 65%;
+    padding: 0 10px;
+    display: flex;
+}
+.search-glass {
+    font-size: 18px;
+    color: var(--zomato-gray);
+}
+.location-icon {
+    color: var(--zomato-red);
+    font-size: 19px;
+}
+.city {
+    color: var(--zomato-gray);
+    font-size: 18px;
+}
+.down {
+    font-size: 20px;
+}
+.search-box {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 0.8rem;
+    color: var(--zomato-gray);
+    height: 100%;
+    margin-left: 10px;
+}
+.header-user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+}
+.user-icon {
+    font-size: 30px;
+}
+.user-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 5px;
+}

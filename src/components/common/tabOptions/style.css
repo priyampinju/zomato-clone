@@ -1,0 +1,6 @@
+.tabname {
+    cursor: pointer;
+}
+.max-width options-wrapper {
+    display: flex;
+}

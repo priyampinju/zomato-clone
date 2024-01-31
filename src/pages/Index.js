@@ -1,15 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Header from '../components/common/header/Header'
+import Footer from '../components/common/footer/Footer'
+import TabOptions from '../components/common/tabOptions/TabOptions'
+import Delivery from '../components/common/delivery/Delivery'
+import DiningOut from '../components/common/diningout/DiningOut'
+import NightLife from '../components/common/nightlife/NightLife'
 
 const Index = () => {
+
+    const [activeTab, setActiveTab] = useState('Delivery')
+
     return (
         <>
-            <div>
-                <img className='logo' src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="ufjv" />
-                <img src="https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png?output-format=webp" alt="illustration" />
-                <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png?output-format=webp" alt="illustration2" />
-            </div>
+            <Header />
+            <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
+            {getCorrectScreen(activeTab)}
+            <Footer />
         </>
     )
+}
+
+const getCorrectScreen = (tab) => {
+    switch (tab) {
+        case "Delivery":
+            return <Delivery /> 
+        case "Dining Out":
+            return <DiningOut /> 
+        case "Night Life":
+            return <NightLife /> 
+        default:
+            return <Delivery /> 
+    }
 }
 
 export default Index
