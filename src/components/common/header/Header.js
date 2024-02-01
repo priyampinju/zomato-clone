@@ -17,7 +17,7 @@ const Header = () => {
                         </div>
                         <div className="search">
                         <i class="fi fi-rs-search absolute-center search-glass"></i>
-                        <input type="text" placeholder="Search for places, events or restaurants" className='search-box'/>
+                        <input type="text" placeholder="Search restaurant, cuisine or a dish" className='search-box'/>
                         </div>
                     </div>
                     <div className="header-user-container">

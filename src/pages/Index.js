@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import Header from '../components/common/header/Header'
 import Footer from '../components/common/footer/Footer'
 import TabOptions from '../components/common/tabOptions/TabOptions'
-import Delivery from '../components/common/delivery/Delivery'
-import DiningOut from '../components/common/diningout/DiningOut'
-import NightLife from '../components/common/nightlife/NightLife'
+import Delivery from '../components/delivery/Delivery'
+import DiningOut from '../components/diningout/DiningOut'
+import NightLife from '../components/nightlife/NightLife'
 
 const Index = () => {
 

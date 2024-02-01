@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './tabOptions.css'
 
 const tabs = [
   {
@@ -12,7 +12,7 @@ const tabs = [
   {
     id:2,
     name: 'Dining Out',
-    active_image: 'https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.pn',
+    active_image: 'https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png',
     inactive_image: 'https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png',
     backdrop: '#E5F3F3'
   },
@@ -31,7 +31,12 @@ const TabOptions = ({activeTab, setActiveTab}) => {
        <div className="max-width options-wrapper">
         {tabs.map((tab) => {
           return (
-            <div className='tabname' onClick={() => {setActiveTab(tab.name)}}>{tab.name}</div>
+            <div className={`tab-item absolute-center cursor-pointer ${activeTab === tab.name && "active-tab"}`} onClick={() => setActiveTab(tab.name)}>
+              <div className="tab-image-container absolute-center" style={{backgroundColor: `${activeTab===tab.name?tab.backdrop : ""}`}}>
+                <img className='tab-image' alt={tab.name} src={activeTab===tab.name ? tab.active_image: tab.inactive_image} />
+              </div>
+              <div className="tab-name">{tab.name}</div>
+            </div>
           )
         })}
        </div>

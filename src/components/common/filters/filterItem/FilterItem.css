@@ -1,0 +1,13 @@
+.filter-item{
+    display: flex;
+    padding: 8px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid var(--gray);
+    border-radius: 11px;
+    color: var(--filter-text);
+    background-color: var(--primary-bg);
+    font-size: 14px;
+}
+.filter-title {
+    margin-left: 5px;
+}

@@ -2,4 +2,13 @@
     --primary-box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
     --zomato-gray: #828282;
     --zomato-red: #ff7e8b;
+    --border-white: rgb(232,232,232);
+    --primary-bg: rgb(255,255,255);
+    --gray: #cfcfcf;
+    --inactive-tab: #696969;
+    --inactive-color: #f8f8f8;
+    --filter-text: #9c9c9c;
+    --middle-bg: rgb(248,248,248);
+    --middle-text: #1c1c1c;
+
 }

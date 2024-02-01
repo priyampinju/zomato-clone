@@ -1,11 +1,13 @@
 import React from 'react'
+import Filter from '../common/filters/Filter'
 
 const DiningOut = () => {
   return (
     <div>
+      <Filter />
         This is the Dining out page
         
-        <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png?output-format=webp" alt="illustration2" />
+        
     </div>
   )
 }
