@@ -10,5 +10,6 @@
     --filter-text: #9c9c9c;
     --middle-bg: rgb(248,248,248);
     --middle-text: #1c1c1c;
+    --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
 
 }

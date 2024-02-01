@@ -49,7 +49,7 @@ const deliveryItems = [
     {
         id:9,
         title: "Thali",
-        image: "https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg",
+        image: "https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png",
     }, 
     {
         id:10,
@@ -70,7 +70,7 @@ const deliveryItems = [
 
 const settings = {
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1,
     nextArrow:<NextArrow /> ,
     prevArrow: <PrevArrow />,

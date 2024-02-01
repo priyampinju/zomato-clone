@@ -1,6 +1,13 @@
 .delivery-collections {
-    font-size: 20px;
+    /* font-size: 30px; */
     background-color: var(--middle-bg);
-    height: 100vh;
+}
+.collection-title {
+    padding-top: 30px;
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    line-height: 12px;
+    font-weight: 500;
+    margin: 0px 0px 32px;
 }
 
