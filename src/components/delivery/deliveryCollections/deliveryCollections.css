@@ -1,9 +1,9 @@
 .delivery-collections {
     /* font-size: 30px; */
     background-color: var(--middle-bg);
+    padding: 40px 0;
 }
 .collection-title {
-    padding-top: 30px;
     color: rgb(28, 28, 28);
     font-size: 30px;
     line-height: 12px;

@@ -26,35 +26,36 @@ const deliveryItems = [
         title: "Chicken",
         image: "https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png",
     },
+    
     {
         id:5,
-        title: "Cake",
-        image: "https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png",
-    },
-    {
-        id:6,
-        title: "Sandwich",
-        image: "https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png",
-    },
-    {
-        id:7,
         title: "Rolls",
         image: "https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png",
     },
     {
-        id:8,
+        id:6,
         title: "North Indian",
         image: "https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg",
     },
     {
-        id:9,
+        id:7,
         title: "Thali",
         image: "https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png",
     }, 
     {
-        id:10,
+        id:8,
         title: "Momos",
         image: "https://b.zmtcdn.com/data/o2_assets/5dbdb72a48cf3192830232f6853735301632716604.png",
+    },
+    {
+        id:9,
+        title: "Cake",
+        image: "https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png",
+    },
+    {
+        id:10,
+        title: "Sandwich",
+        image: "https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png",
     },
     {
         id:11,

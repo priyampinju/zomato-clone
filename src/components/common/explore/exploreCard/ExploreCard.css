@@ -1,0 +1,21 @@
+.explore-card {
+    margin: 12px 0 24px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+

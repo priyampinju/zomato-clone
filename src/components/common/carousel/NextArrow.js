@@ -5,9 +5,10 @@ const NextArrow = (props) => {
     return (
         <div
         className={className}
-        style={{ ...style, background: 'whiite', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '4px' }}
+        style={{ ...style, background: 'white', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '4px' }}
         onClick={onClick}
-      />
+      >
+      </div>
   )
 }
 
