@@ -1,6 +1,8 @@
 import React from 'react'
 import Filter from '../common/filters/Filter'
 import Collections from '../common/collections/Collections'
+import { Dining } from '../../data/dining';
+import Explore from '../common/explore/Explore';
 
 
 
@@ -78,6 +80,8 @@ const diningFilters = [
   },
 ];
 
+const diningList = Dining;
+
 const DiningOut = () => {
   return (
     <div>
@@ -86,6 +90,7 @@ const DiningOut = () => {
       <div className="dining max-width">
         <Filter filterList={diningFilters} />
       </div>
+      <Explore list={diningList} collectionName='Trending dining restaurants in Jorhat' />
     </div>
   )
 }
