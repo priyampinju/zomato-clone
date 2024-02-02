@@ -84,7 +84,7 @@ const NightLife = () => {
       <div className="max-width">
       <Filter filterList={nightFilters} />
       </div>
-      <Explore list={nightLifeList} collectionName="Nightlife Restaurants in Guwahati"
+      <Explore list={nightLifeList} collectionName="Nightlife Restaurants in Jorhat"
       />
 
       
