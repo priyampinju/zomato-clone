@@ -32,7 +32,7 @@ const Collections = ({ list }) => {
                             <div className="collection-card-title">{item.title}</div>
                             <div className="collection-card-subtitle">
                                 <div>{item.places}</div>
-                                <i className="fi fi-rr-caret-right"></i>
+                                <i className="fi fi-rr-caret-right absolute-center" style={{marginTop: '6px'}}></i>
                             </div>
                         </div>
                         </div>
