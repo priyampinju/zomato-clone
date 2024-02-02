@@ -21,11 +21,12 @@ const ExploreCard = ({ restaurant }) => {
     return (
         <div className='explore-card cursor-pointer'>
             <div className="explore-card-cover">
-                <img src={coverImg} alt={name} className='explore-card-image'/>
+                <img src={coverImg} alt={name} className='explore-card-image' />
+                <div className="delivery-time">{deliveryTime}</div>
+                {proOff && <div className="pro-off">{proOff}</div>}
+                {goldOff && <div className="gold-off absolute-center"> {goldOff} </div>}
+                {discount && <div className="discount absolute-center">{discount}</div>}
             </div>
-            <div className="delivery-time">{deliveryTime}</div>
-            {proOff && <div className="pro-off">{proOff}</div> }
-            {goldOff && <div className="gold-off absolute-center">{goldOff}</div> }
         </div>
     )
 }

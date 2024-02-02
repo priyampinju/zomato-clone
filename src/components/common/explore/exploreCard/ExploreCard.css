@@ -19,3 +19,26 @@
     border-radius: 15px;
 }
 
+.delivery-time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+.pro-off {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0 6px ;
+    border-radius: 0 4px 4px 0;
+}
