@@ -1,0 +1,37 @@
+.collection-wrapper {
+    background-color: var(--inactive-color);
+}
+.collection {
+    padding: 30px 0 40px;
+}
+.collection-subtitle-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.collection-subtitle-text {
+     color: var(--subtitle-text);
+     font-size: 18px;
+}
+
+.collection-location {
+    color: var(--zomato-red);
+    display: flex;
+}
+
+.collection-cover{
+    height: 320px;
+    width: 260px;
+    margin-right: 20px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.gradient-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--bg--gradient);
+}
