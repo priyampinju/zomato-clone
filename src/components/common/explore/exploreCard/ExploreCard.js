@@ -27,6 +27,9 @@ const ExploreCard = ({ restaurant }) => {
                 {goldOff && <div className="gold-off absolute-center"> {goldOff} </div>}
                 {discount && <div className="discount absolute-center">{discount}</div>}
             </div>
+            <div className="restaurant-row">
+                <div className="restaurant-name">{name}</div>
+            </div>
         </div>
     )
 }
