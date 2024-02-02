@@ -1,12 +1,12 @@
 import React from 'react'
 import Filter from '../common/filters/Filter'
+import Collections from '../common/collections/Collections'
 
 const DiningOut = () => {
   return (
     <div>
       <Filter />
-        This is the Dining out page
-        
+        <Collections />
         
     </div>
   )

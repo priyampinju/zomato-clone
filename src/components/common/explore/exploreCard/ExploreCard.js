@@ -29,7 +29,30 @@ const ExploreCard = ({ restaurant }) => {
             </div>
             <div className="restaurant-row">
                 <div className="restaurant-name">{name}</div>
+                {rating && (<div className="restaurant-rating absolute-center">
+                    {rating}
+                    <i className="fi fi-sr-star absolute-center"/>
+                </div>
+                )}
             </div>
+            <div className="restaurant-row">
+                {cuisines.length && (
+                    <div className="restaurant-cuisine">
+                        {cuisines.map((item, i) => (
+                            <span className="restaurant-cuisine-tag">{item}{i !== cuisines.length - 1 && ", "}</span>
+                    ))}
+                    </div> )}
+                {approxPrice && <div className="restaurant-price">{approxPrice}</div>}
+            </div>
+            {bottomContainers.length > 0 && (
+                <div>
+                    <div className="card-separator"></div>
+                    <div className="explore-bottom">
+                        <img src={bottomContainers[0]?.image?.url} style={{ height: '18px' }} alt={bottomContainers[0]?.text} />
+                        <div className="restaurant-bottom-text">{bottomContainers[0]?.text}</div>
+                    </div>
+                </div>
+            )}
         </div>
     )
 }
