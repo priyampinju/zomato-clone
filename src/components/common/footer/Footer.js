@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div>
+            <div className='footer absolute-center'>
                 Made with 💕 by Pinju
             </div>
         </>

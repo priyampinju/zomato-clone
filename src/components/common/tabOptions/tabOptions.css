@@ -1,4 +1,4 @@
-.max-width options-wrapper {
+.options-wrapper {
     display: flex;
 }
 
@@ -6,9 +6,6 @@
     box-shadow: var(--border-white) 0px -0.5px 0px inset;
 }
 
-.options-wrapper {
-    display: flex;
-}
 
 .tab-item {
     margin-right: 24px;
