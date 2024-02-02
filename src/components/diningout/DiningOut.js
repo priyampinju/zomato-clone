@@ -2,11 +2,13 @@ import React from 'react'
 import Filter from '../common/filters/Filter'
 import Collections from '../common/collections/Collections'
 
-const collectionList= [
+
+
+const collectionList = [
   {
     id: 1,
     title: "7 Serene Rooftop Places",
-    cover: 	'https://b.zmtcdn.com/data/collections/293255cbfe49f4ebdb244c1bfc3a0f74_1691151613.jpg',
+    cover: 'https://b.zmtcdn.com/data/collections/293255cbfe49f4ebdb244c1bfc3a0f74_1691151613.jpg',
     places: "7 Places",
   },
   {
@@ -44,14 +46,46 @@ const collectionList= [
       "https://b.zmtcdn.com/data/collections/3c8d1e8d612c909438576795095ff71b_1691151059.png",
     places: "5 Places",
   },
-  
-]
+
+];
+
+const diningFilters = [
+  {
+    id: 1,
+    title: "Filters",
+    icon: <i class="fi fi-rr-settings-sliders absolute-center"></i>
+  },
+  {
+    id: 2,
+    title: "Rating: 4.0+",
+  },
+  {
+    id: 3,
+    title: "Safe and Hygienic",
+  },
+  {
+    id: 4,
+    title: "Pure Veg",
+  },
+  {
+    id: 5,
+    title: "Delivery Time",
+    icon: <i class="fi fi-rr-sort-alt absolute-center"></i>,
+  },
+  {
+    id: 6,
+    title: "Great Offers",
+  },
+];
 
 const DiningOut = () => {
   return (
     <div>
-      <Filter />
+
       <Collections list={collectionList} />
+      <div className="dining max-width">
+        <Filter filterList={diningFilters} />
+      </div>
     </div>
   )
 }

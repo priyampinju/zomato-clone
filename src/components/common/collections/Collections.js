@@ -26,16 +26,15 @@ const Collections = ({ list }) => {
                 </div>
                 <Slider {...settings}>
                     {list.map((item) => (
-                        <div>
-                            <div className="collection-cover">
-                                <img src={item.cover} alt={item.title} />
-                                <div className="gradient-bg"></div>
-                                <div className="collection-card-title">{item.title}</div>
-                                <div className="collection-card-subtitle">
-                                    <div>{item.places}</div>
-                                    <i className="fi fi-rr-caret-right"></i>
-                                </div>
+                        <div> <div className="collection-cover">
+                            <img src={item.cover} alt={item.title} className='collection-image' />
+                            <div className="gradient-bg"></div>
+                            <div className="collection-card-title">{item.title}</div>
+                            <div className="collection-card-subtitle">
+                                <div>{item.places}</div>
+                                <i className="fi fi-rr-caret-right"></i>
                             </div>
+                        </div>
                         </div>
                     ))}
 
